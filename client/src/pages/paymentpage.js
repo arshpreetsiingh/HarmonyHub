@@ -22,7 +22,7 @@ function PaymentPage() {
 
   useEffect(() => {
     showRazorpay();
-  }, []);
+  }, [showRazorpay]); 
 
   async function showRazorpay() {
     const res = await loadScript(

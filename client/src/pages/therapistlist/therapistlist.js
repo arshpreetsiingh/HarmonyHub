@@ -29,7 +29,7 @@ const TherapistsList = () => {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [showSnackbar]);
 
   useEffect(() => {
     fetchTherapists();

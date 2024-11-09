@@ -1,0 +1,8 @@
+{
+    "extends": ["react-app"],
+    "rules": {
+      "jsx-a11y/img-redundant-alt": "warn",
+      "no-unused-vars": "warn",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  }

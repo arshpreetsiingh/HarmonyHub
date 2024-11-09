@@ -26,7 +26,7 @@ function signs() {
               <div key={index} className="item">
                 <img
                   src="https://cdn.prod.website-files.com/62ab7d5ccc9f587bce83c183/62cfdfef9b9e416f5baa7cba_Get%20Help%20-%20Vandrevala3%20(2).png"
-                  alt="Arrow image"
+                  alt="Arrow "
                   width={20}
                   height={20}
                 />
@@ -52,7 +52,7 @@ function signs() {
               <div key={index} className="item">
                 <img
                   src="https://cdn.prod.website-files.com/62ab7d5ccc9f587bce83c183/62cfdfef9b9e416f5baa7cba_Get%20Help%20-%20Vandrevala3%20(2).png"
-                  alt="Arrow image"
+                  alt="Arrow"
                   width={20}
                   height={20}
                 />
