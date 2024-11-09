@@ -1,0 +1,108 @@
+.DashBoardContainer {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+
+.DashBoardContainer .container {
+  max-width: 1140px;
+}
+
+.DashBoardContainer .card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.DashBoardContainer .card-body {
+  padding: 2rem;
+}
+
+.DashBoardContainer .card-body-text-center {
+  text-align: center;
+}
+
+.DashBoardContainer .DashboardProfile-imgs {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 1.5rem;
+  border: 5px solid #fff;
+  display: block;
+}
+
+.DashBoardContainer .text-muted {
+  color: #6c757d !important;
+}
+
+.DashBoardContainer .list-group-item {
+  border: none;
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DashBoardContainer .list-group-item:hover {
+  background-color: #f1f3f5;
+}
+
+.DashBoardContainer .row {
+  margin-bottom: 1rem;
+}
+
+.DashBoardContainer .col-sm-3,
+.DashBoardContainer .col-sm-9 {
+  display: flex;
+  align-items: center;
+}
+
+.DashBoardContainer .form-control {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.DashBoardContainer .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.DashBoardContainer .text-danger {
+  color: #dc3545 !important;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .DashBoardContainer .card-body {
+    padding: 1.5rem;
+  }
+  
+  .DashBoardContainer .row {
+    flex-direction: column;
+  }
+  
+  .DashBoardContainer .col-sm-3,
+  .DashBoardContainer .col-sm-9 {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+}

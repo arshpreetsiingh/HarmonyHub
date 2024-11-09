@@ -1,0 +1,83 @@
+.what-we-do-container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px 5px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.what-we-do-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.what-we-do-subheading {
+  font-size: 1.125rem;
+  margin-bottom: 50px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeIn 1s ease-in-out;
+  padding-top: 3vh;
+}
+
+.cards {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(244, 50, 254, 0.222);
+  width: 90vw;
+  max-width: 345px;
+  height: auto;
+  margin: auto;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(181, 43, 255, 0.651);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  .cards {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    width: 30vw;
+  }
+}
