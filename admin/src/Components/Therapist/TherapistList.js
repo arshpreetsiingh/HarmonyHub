@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from '../../api/axios';
 import './TherapistList.css';
 
 const TherapistList = () => {
@@ -10,7 +10,7 @@ const TherapistList = () => {
   useEffect(() => {
     const fetchTherapists = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/therapists');
+        const response = await axios.get('/api/therapists');
         setTherapists(response.data);
         setLoading(false);
       } catch (err) {

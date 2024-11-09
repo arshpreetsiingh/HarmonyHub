@@ -1,1 +1,1 @@
-# serenity-connect
+Harmony Hub

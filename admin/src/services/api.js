@@ -12,7 +12,7 @@ const instance = axios.create({
   }
 });
 
-// Example function to store tags in local storage
+// Example function to store tags in local storage  
 export const storeTagsInLocalStorage = (tags) => {
   localStorage.setItem('tags', JSON.stringify(tags));
 };

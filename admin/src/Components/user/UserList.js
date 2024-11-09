@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import axios from '../../api/axios';
 import './userList.css';
 
 const UserList = () => {
@@ -10,7 +10,7 @@ const UserList = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/users');
+        const response = await axios.get('/api/users');
         setUsers(response.data);
       } catch (error) {
         setError(error.message);
