@@ -17,7 +17,7 @@ const Resources = () => {
   useEffect(() => {
     const fetchResources = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/resources');
+        const response = await axios.get('/api/resources');
         setResources(response.data);
         setFilteredResources(response.data);
       } catch (error) {
