@@ -20,4 +20,4 @@ const testimonialSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('Testimonial', testimonialSchema);
+module.exports = mongoose.model('Testimonial', testimonialSchema);z
