@@ -34,7 +34,7 @@ const WhatWeDo = () => {
         <Col md={5} className="text-center">
           <div className="what-we-do-heading">What We Do</div>
           <div className="what-we-do-subheading">
-            At Serenity Connect, we provide comprehensive mental health support through various therapeutic approaches and services.
+            At Harmony Hub, we provide comprehensive mental health support through various therapeutic approaches and services.
           </div>
         </Col>
       </Row>

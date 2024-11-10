@@ -41,7 +41,7 @@ const Resources = () => {
 
   return (
     <div className="resources-wrapper">
-      <h2 className="header-text" data-aos="fade-up">Not feeling well? Book a session on Serenity Connect</h2>
+      <h2 className="header-text" data-aos="fade-up">Not feeling well? Book a session on Harmony Hub</h2>
       <div className="searchBox" data-aos="fade-up">
         <input
           type="text"
